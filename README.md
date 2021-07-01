@@ -1,12 +1,12 @@
 # 🥞 MoonKat UIkit
 
-[![Version](https://img.shields.io/npm/v/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit)
+[![Version](https://img.shields.io/npm/v/moonkat_uikit)](https://www.npmjs.com/package/moonkat_uikit) [![Size](https://img.shields.io/bundlephobia/min/moonkat_uikit)](https://www.npmjs.com/package/moonkat_uikit)
 
 MoonKat UIkit is a set of React components and hooks used to build pages on MoonKat's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
-`yarn add @pancakeswap-libs/uikit`
+`yarn add moonkat_uikit`
 
 ## Setup
 
@@ -16,7 +16,7 @@ Before using MoonKat UIkit, you need to provide the theme file to styled-compone
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@pancakeswap-libs/uikit'
+import { light, dark } from 'moonkat_uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -26,7 +26,7 @@ import { light, dark } from '@pancakeswap-libs/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@pancakeswap-libs/uikit'
+import { ResetCSS } from 'moonkat_uikit'
 ...
 <ResetCSS />
 ```
