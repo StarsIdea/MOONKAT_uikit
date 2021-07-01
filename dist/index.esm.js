@@ -2103,7 +2103,7 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/goosedefi",
+                href: "https://t.me/moonkatfinance",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -2147,14 +2147,14 @@ var socials = [
             // },
             {
                 label: "Announcements",
-                href: "https://t.me/goosefinanceann",
+                href: "https://t.me/moonkat_finance",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FinanceGoose",
+        href: "https://twitter.com/moonkatBSC",
     },
 ];
 var MENU_HEIGHT = 64;
