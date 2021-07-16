@@ -16,27 +16,28 @@ const connectors: Config[] = [
     title: "WalletConnect",
     icon: WalletConnect,
     connectorId: "walletconnect",
-  },
-  {
-    title: "TrustWallet",
-    icon: TrustWallet,
-    connectorId: "injected",
-  },
-  {
-    title: "MathWallet",
-    icon: MathWallet,
-    connectorId: "injected",
-  },
-  {
-    title: "TokenPocket",
-    icon: TokenPocket,
-    connectorId: "injected",
-  },
-  {
-    title: "Binance Chain Wallet",
-    icon: BinanceChain,
-    connectorId: "bsc",
-  },
+  }
+  // ,
+  // {
+  //   title: "TrustWallet",
+  //   icon: TrustWallet,
+  //   connectorId: "injected",
+  // },
+  // {
+  //   title: "MathWallet",
+  //   icon: MathWallet,
+  //   connectorId: "injected",
+  // },
+  // {
+  //   title: "TokenPocket",
+  //   icon: TokenPocket,
+  //   connectorId: "injected",
+  // },
+  // {
+  //   title: "Binance Chain Wallet",
+  //   icon: BinanceChain,
+  //   connectorId: "bsc",
+  // },
 ];
 
 export default connectors;
