@@ -13,6 +13,11 @@ const connectors: Config[] = [
     connectorId: "injected",
   },
   {
+    title: "WalletConnect",
+    icon: WalletConnect,
+    connectorId: "walletconnect",
+  },
+  {
     title: "TrustWallet",
     icon: TrustWallet,
     connectorId: "injected",
@@ -26,11 +31,6 @@ const connectors: Config[] = [
     title: "TokenPocket",
     icon: TokenPocket,
     connectorId: "injected",
-  },
-  {
-    title: "WalletConnect",
-    icon: WalletConnect,
-    connectorId: "walletconnect",
   },
   {
     title: "Binance Chain Wallet",
